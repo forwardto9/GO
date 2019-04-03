@@ -4,6 +4,6 @@ import (
 	"fmt"
 )
 
-func demoFunction() {
+func DemoFunction() {
 	fmt.Println("this is a demo package on github!")
 }
