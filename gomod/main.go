@@ -57,7 +57,7 @@ var arg = flag.Duration("flag", 1*time.Second, "desc")
 func main() {
 	/* 这是我的第一个简单的程序 */
 	flag.Parse()
-	fmt.Printf("sleep %v", *arg)
+	fmt.Printf("sleep %v\n", *arg)
 	time.Sleep(*arg)
 
 	fmt.Println("Hello go mod")
