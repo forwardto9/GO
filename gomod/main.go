@@ -10,7 +10,8 @@ import (
 	"strings"
 	"sync"
 	"time"
-	
+	"flag"
+
 	"gomod/clib" // 依赖导入本地包
 
 	testgopackageongithub "github.com/forwardto9/GO" // 依赖导入远程包
@@ -51,8 +52,14 @@ func (benzi Benzi) run() {
 	fmt.Println("Im Benzi")
 }
 
+var arg = flag.Duration("flag", 1*time.Second, "desc")
+
 func main() {
 	/* 这是我的第一个简单的程序 */
+	flag.Parse()
+	fmt.Printf("sleep %v", *arg)
+	time.Sleep(*arg)
+
 	fmt.Println("Hello go mod")
 	demoString := testgopackageongithub.DemoFunction()
 	fmt.Println(demoString)
