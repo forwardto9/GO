@@ -26,4 +26,3 @@ curl -XGET http://127.0.0.1:8080/sd/disk
 curl -XGET http://127.0.0.1:8080/sd/cpu
 curl -XGET http://127.0.0.1:8080/sd/ram
 ```
-
