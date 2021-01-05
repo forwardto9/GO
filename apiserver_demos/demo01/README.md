@@ -10,7 +10,7 @@ cd $GOPATH/src/apiserver
 // 建立mod管理模块
 go mod init apiserver
 // 解决包依赖
-go mod vendor
+// go mod vendor // 因为从1.11版本，不再使用vendor来管理依赖包
 // 构建，如果此步提示依赖的包有问题，可能是包依赖问题，可以尝试使用 go get -u <packagename>, 再执行 go mod vendor 解决依赖
 go build
 ```
