@@ -1,0 +1,26 @@
+{"level":"INFO","timestamp":"2021-01-10 16:27:15.445","file":"apiserver/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2021-01-10 16:27:15.546","file":"apiserver/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2021-01-10 16:33:48.415","file":"apiserver/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2021-01-10 16:33:48.416","file":"apiserver/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2021-01-10 16:35:05.236","file":"user/create.go:22","msg":"URL username: "}
+{"level":"INFO","timestamp":"2021-01-10 16:35:05.236","file":"user/create.go:25","msg":"URL key param desc: "}
+{"level":"INFO","timestamp":"2021-01-10 16:35:05.236","file":"user/create.go:28","msg":"Header Content-Type: application/json"}
+{"level":"DEBUG","timestamp":"2021-01-10 16:35:05.236","file":"user/create.go:30","msg":"username is: [admin], password is [admin]"}
+{"level":"INFO","timestamp":"2021-01-10 16:36:21.676","file":"user/create.go:22","msg":"URL username: "}
+{"level":"INFO","timestamp":"2021-01-10 16:36:21.676","file":"user/create.go:25","msg":"URL key param desc: "}
+{"level":"INFO","timestamp":"2021-01-10 16:36:21.676","file":"user/create.go:28","msg":"Header Content-Type: application/json"}
+{"level":"DEBUG","timestamp":"2021-01-10 16:36:21.676","file":"user/create.go:30","msg":"username is: [admin], password is [admin]"}
+{"level":"INFO","timestamp":"2021-01-10 16:37:16.889","file":"apiserver/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2021-01-10 16:37:16.893","file":"apiserver/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2021-01-10 16:37:21.735","file":"user/create.go:22","msg":"URL username: admin2"}
+{"level":"INFO","timestamp":"2021-01-10 16:37:21.735","file":"user/create.go:25","msg":"URL key param desc: "}
+{"level":"INFO","timestamp":"2021-01-10 16:37:21.735","file":"user/create.go:28","msg":"Header Content-Type: application/json"}
+{"level":"DEBUG","timestamp":"2021-01-10 16:37:21.735","file":"user/create.go:30","msg":"username is: [admin], password is [admin]"}
+{"level":"INFO","timestamp":"2021-01-10 16:42:17.400","file":"user/create.go:22","msg":"URL username: admin2"}
+{"level":"INFO","timestamp":"2021-01-10 16:42:17.400","file":"user/create.go:25","msg":"URL key param desc: "}
+{"level":"INFO","timestamp":"2021-01-10 16:42:17.400","file":"user/create.go:28","msg":"Header Content-Type: application/json"}
+{"level":"DEBUG","timestamp":"2021-01-10 16:42:17.400","file":"user/create.go:30","msg":"username is: [admin], password is [admin]"}
+{"level":"INFO","timestamp":"2021-01-10 16:45:47.692","file":"user/create.go:22","msg":"URL username: admin2"}
+{"level":"INFO","timestamp":"2021-01-10 16:45:47.692","file":"user/create.go:25","msg":"URL key param desc: test"}
+{"level":"INFO","timestamp":"2021-01-10 16:45:47.692","file":"user/create.go:28","msg":"Header Content-Type: application/json"}
+{"level":"DEBUG","timestamp":"2021-01-10 16:45:47.692","file":"user/create.go:30","msg":"username is: [admin], password is [admin]"}
