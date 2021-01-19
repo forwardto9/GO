@@ -1,0 +1,4 @@
+{"level":"INFO","timestamp":"2021-01-19 09:46:59.699","file":"apiserver/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2021-01-19 09:46:59.700","file":"apiserver/main.go:73","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2021-01-19 09:47:00.702","file":"apiserver/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2021-01-19 09:48:27.494","file":"middleware/logging.go:84","msg":"2.944ms       | 127.0.0.1    | GET /v1/user | {code: 0, message: OK}"}
