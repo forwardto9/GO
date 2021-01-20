@@ -1,0 +1,8 @@
+{"level":"INFO","timestamp":"2021-01-20 09:30:43.967","file":"apiserver/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2021-01-20 09:30:43.967","file":"apiserver/main.go:73","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2021-01-20 09:30:44.972","file":"apiserver/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2021-01-20 09:31:21.930","file":"middleware/logging.go:84","msg":"75.214ms      | 127.0.0.1    | POST /login | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2021-01-20 09:33:37.216","file":"middleware/logging.go:84","msg":"71µs          | 127.0.0.1    | POST /v1/user | {code: 20103, message: The token was invalid.}"}
+{"level":"INFO","timestamp":"2021-01-20 09:35:15.818","file":"user/create.go:16","msg":"User Create function called.","data":{"X-Request-Id":"f57f575b-23dc-41e7-88bc-b652d2600963"}}
+{"level":"INFO","timestamp":"2021-01-20 09:35:15.885","file":"middleware/logging.go:84","msg":"66.652ms      | 127.0.0.1    | POST /v1/user | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2021-01-20 09:47:30.317","file":"middleware/logging.go:84","msg":"68µs          | 127.0.0.1    | POST /v1/user | {code: 20103, message: The token was invalid.}"}
