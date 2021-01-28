@@ -106,3 +106,21 @@ curl -XGET -H "Content-Type: application/json" -H "Authorization: Bearer eyJhbGc
 # 此时可以查看 access.log 文件的记录
 ```
 
+
+
+## 配置 Nginx 负载均衡
+
+```json
+#在nginx.conf文件的http标识字段内新增以下：
+upstream apiserver.com {
+     server 127.0.0.1:8080;
+     server 127.0.0.1:8082;
+}
+
+#修改以下字段:
+proxy_pass http://apiserver.com/;
+```
+
+注意：
+
+负载均衡的演示需要多个后端服务，为此我们在同一个服务器上启动多个 apiserver，配置不同的端口（8080、8082），并采用 Nginx 默认的轮询转发策略（轮询：每个请求按时间顺序逐一分配到不同的后端服务器）。
